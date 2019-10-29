@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="this is a test">
+<meta name="keywords" content="testing keywords">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pro-sound.net.au</title>
+</head>
+<body>
+  <h2>pro-sound.net.au</h2>
+<!-- Redirect Script -->
+  <p>Redirecting to Pro-Sound Studio Productions after <span id="countdown">10</span> seconds</p>
+<!-- JavaScript part -->
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 10;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Chnage your redirection link here
+            window.location = "http://pro-sound.com.au";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
+</body>
+</html>
