@@ -1,4 +1,4 @@
 # prosoundnet-home
-prosoundnet-site
+prosound-net-au-site
 
 simple site redirect in js
